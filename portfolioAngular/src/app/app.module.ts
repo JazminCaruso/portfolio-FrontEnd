@@ -6,6 +6,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoArgPComponent } from './components/logo-arg-p/logo-arg-p.component';
 import { RedesComponent } from './components/redes/redes.component';
 import { BotonInicioComponent } from './components/boton-inicio/boton-inicio.component';
+import { BanerComponent } from './components/baner/baner.component';
+import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +17,11 @@ import { BotonInicioComponent } from './components/boton-inicio/boton-inicio.com
     HeaderComponent,
     LogoArgPComponent,
     RedesComponent,
-    BotonInicioComponent
+    BotonInicioComponent,
+    BanerComponent,
+    AcercaDeComponent,
+    ExperienciaComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule

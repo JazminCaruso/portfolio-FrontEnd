@@ -1,0 +1,59 @@
+.educacion {
+    margin-top: 2%;
+    background-color: rgb(202, 202, 202);
+    padding-bottom: 2%;
+    width:100%;
+}
+
+.subtitulo2 {
+    padding-top: 1%;
+    margin-left: 3%;
+    width: fit-content;
+}
+
+.titulos {
+    margin-top: 2%;
+    display: flex;
+    align-items:flex-start;
+    width: fit-content;
+}
+
+.educacion2 {
+    margin-top: 1%;
+}
+
+.fotoEducacionRed {
+    display: block;
+    margin-left: 15%;
+    width: 35%;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+.tituloImagenEducacion {
+    text-align: center;
+    font-size: medium;
+}
+
+.subtituloExperiencia {
+    margin-bottom: 1%;
+}
+
+.textoExperiencia {
+    padding-right: 10%;
+    text-align: justify;
+}
+
+/* .btn {
+    background-color: brown;
+    border-style: none;
+}
+
+.btn:hover {
+    background-color: brown;
+    border-style: none;
+} */
+
+.card {
+    width: 80%;
+}

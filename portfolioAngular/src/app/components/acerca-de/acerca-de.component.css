@@ -1,0 +1,29 @@
+.informacionPersonal {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.miFoto {
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+.misDatos {
+    text-align: center;
+}
+
+.subtitulo1 {
+    margin-bottom: 1%;
+}
+
+.textoAcercaDe {
+    padding-right: 10%;
+    text-align:justify;
+}
