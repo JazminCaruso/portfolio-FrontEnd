@@ -1,0 +1,32 @@
+.habilidades {
+    margin: 0 auto;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    width:90%;
+    background-color: aliceblue;
+}
+
+.idiomas {
+    margin: 0 auto;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    background-color: aliceblue;
+}
+
+.subtitulo2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+}
+
+.progress {
+    margin: 0px auto;
+    width: 70%;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.progress-bar {
+    color:black;
+}

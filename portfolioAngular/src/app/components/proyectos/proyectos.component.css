@@ -1,9 +1,9 @@
-.experiencia {
+.proyectos {
     margin: 0 auto;
-    margin-top: 3%;
-    padding-bottom: 2%;
-    width:90%;
+    margin-top: 2%;
     background-color: aliceblue;
+    padding-bottom: 2%;
+    width: 90%;
 }
 
 .subtitulo2 {
@@ -13,24 +13,26 @@
     background-color: rgb(202, 202, 202);
 }
 
-.trabajos {
+.proyecto {
     margin-top: 2%;
     display: flex;
     align-items:flex-start;
+    margin-bottom: 2%;
 }
 
-.fotoTrabajo {
+.fotoProyecto {
     display: block;
     margin: 0px auto;
     width: 60%;
+    box-shadow: 10px 10px 30px black;
 }
 
-.subtituloExperiencia {
-    margin-bottom: 1%;
+.subtituloProyecto {
     padding-left: 2%;
+    margin-bottom: 1%;
 }
 
-.textoExperiencia {
+.textoProyecto {
     padding-left: 2%;
     text-align: justify;
 }

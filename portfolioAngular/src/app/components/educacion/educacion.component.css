@@ -1,14 +1,17 @@
 .educacion {
+    margin: 0 auto;
     margin-top: 2%;
     background-color: rgb(202, 202, 202);
     padding-bottom: 2%;
-    width:100%;
+    width:90%;
+    background-color: aliceblue;
 }
 
 .subtitulo2 {
     padding-top: 1%;
-    margin-left: 3%;
-    width: fit-content;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
 }
 
 .titulos {

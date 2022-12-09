@@ -4,7 +4,9 @@
     background-color: aliceblue;
     padding-top: 2%;
     padding-bottom: 2%;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
 }
 
 .miFoto {
