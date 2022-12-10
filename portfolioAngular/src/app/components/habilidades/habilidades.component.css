@@ -6,18 +6,14 @@
     background-color: aliceblue;
 }
 
-.idiomas {
-    margin: 0 auto;
-    margin-top: 3%;
-    padding-bottom: 2%;
-    background-color: aliceblue;
-}
-
 .subtitulo2 {
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
-    background-color: rgb(202, 202, 202);
+    background-color: #061c34;
+    color: aliceblue;
+    font-size:x-large;
+    font-style: italic;
 }
 
 .progress {
@@ -29,4 +25,20 @@
 
 .progress-bar {
     color:black;
+    font-size: medium;
+}
+
+.idiomas {
+    margin: 0 auto;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    background-color: aliceblue;
+}
+
+@media (max-width: 768px) {
+    
+    .idiomas {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }

@@ -10,7 +10,10 @@
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
-    background-color: rgb(202, 202, 202);
+    background-color: #061c34;
+    color: aliceblue;
+    font-size:x-large;
+    font-style: italic;
 }
 
 .trabajos {
@@ -19,18 +22,66 @@
     align-items:flex-start;
 }
 
+.subtituloExperiencia {
+    margin-bottom: 1%;
+    padding-left: 10%;
+    font-size: large;
+    color: #061c34;
+}
+
+.textoExperiencia {
+    padding-left: 10%;
+    text-align: justify;
+}
+
 .fotoTrabajo {
     display: block;
     margin: 0px auto;
     width: 60%;
 }
 
-.subtituloExperiencia {
-    margin-bottom: 1%;
-    padding-left: 2%;
+@media (max-width: 956px) {
+    
+    .fotoTrabajo {
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
 }
 
-.textoExperiencia {
-    padding-left: 2%;
-    text-align: justify;
+@media (max-width: 768px) {
+    
+    .subtituloExperiencia {
+        padding-left: 5%;
+    }
+    
+    .textoExperiencia {
+        padding-left: 5%;
+        padding-top: 2%;
+    }
+    
+    .fotoTrabajo {
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    
+    .subtituloExperiencia {
+        padding-left: 5%;
+    }
+    
+    .textoExperiencia {
+        padding-left: 5%;
+        padding-top: 2%;
+    }
+    
+    .fotoTrabajo {
+        padding-left: 5%;
+        padding-bottom: 2%;
+        width: 80%;
+    }
+
 }

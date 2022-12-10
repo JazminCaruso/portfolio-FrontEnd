@@ -19,13 +19,61 @@
 
 .misDatos {
     text-align: center;
+    margin-top: 5%;
+}
+
+.nombre {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #061c34;
+}
+
+.profesion {
+    font-size: x-large;
+    color: #061c34;
 }
 
 .subtitulo1 {
     margin-bottom: 1%;
+    font-size: x-large;
+    color: #061c34;
 }
 
 .textoAcercaDe {
     padding-right: 10%;
     text-align:justify;
+}
+
+@media (max-width: 1040px) {
+    .nombre {
+        font-size: x-large;
+    }
+
+    .profesion {
+        font-size: x-large;
+    }
+
+    .textoAcercaDe {
+        padding-top: 1%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .miFoto {
+        width: 50%;
+        padding-top: 3%;
+    }
+
+    .subtitulo1 {
+        font-size: large;
+        padding-left: 3%;
+    }
+    
+    .textoAcercaDe {
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 1%;
+    }
+    
 }

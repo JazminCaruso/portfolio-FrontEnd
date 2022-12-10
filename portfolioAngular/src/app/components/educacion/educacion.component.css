@@ -11,7 +11,10 @@
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
-    background-color: rgb(202, 202, 202);
+    background-color: #061c34;
+    color: aliceblue;
+    font-size:x-large;
+    font-style: italic;
 }
 
 .titulos {
@@ -19,6 +22,7 @@
     display: flex;
     align-items:flex-start;
     width: fit-content;
+    
 }
 
 .educacion2 {
@@ -40,23 +44,51 @@
 
 .subtituloExperiencia {
     margin-bottom: 1%;
+    font-size: large;
+    color: #061c34;
 }
 
 .textoExperiencia {
     padding-right: 10%;
     text-align: justify;
+    padding-top: 1%;
 }
 
-/* .btn {
-    background-color: brown;
+.card {
+    width: 80%;
+}
+
+.btn {
+    color: #061c34;
+    background-color: #dae2e5;
     border-style: none;
 }
 
 .btn:hover {
-    background-color: brown;
-    border-style: none;
-} */
+    background-color: #061c34;
+    color: aliceblue;
+}
 
-.card {
-    width: 80%;
+@media (max-width: 768px) {
+
+    .titulos {
+        margin-left: 2%;
+    }
+
+    .textoExperiencia {
+        padding-top: 1%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .titulos {
+        margin-bottom: 5%;
+    }
+
+    .textoExperiencia {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 3%;
+    }
 }

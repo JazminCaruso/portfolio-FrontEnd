@@ -10,7 +10,10 @@
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
-    background-color: rgb(202, 202, 202);
+    background-color: #061c34;
+    color: aliceblue;
+    font-size:x-large;
+    font-style: italic;
 }
 
 .proyecto {
@@ -23,16 +26,39 @@
 .fotoProyecto {
     display: block;
     margin: 0px auto;
-    width: 60%;
-    box-shadow: 10px 10px 30px black;
+    width: 80%;
+    box-shadow: 10px 10px 20px #061c34;
 }
 
 .subtituloProyecto {
-    padding-left: 2%;
+    padding-left: 10%;
     margin-bottom: 1%;
+    font-size: large;
+    color: #061c34;
 }
 
 .textoProyecto {
-    padding-left: 2%;
-    text-align: justify;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+@media (max-width: 768px) {
+
+    .subtituloProyecto {
+        padding-left: 3%;
+        text-align: center;
+    }
+    
+    .textoProyecto {
+        padding-left: 3%;
+        padding-right: 3%;
+        text-align: center;
+    }
+
+    .fotoProyecto {
+        margin-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 70%;
+    }
 }
