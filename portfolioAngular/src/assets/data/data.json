@@ -1,0 +1,18 @@
+ {
+    "name": "Jazmín Caruso",
+    "profession":"Development",
+    "miFoto": "../../../assets/img/miFoto.jpeg",
+    "miInfo": "Tengo 19 años. Soy de Pilar, Córdoba. Estudio Lic. en Ciencias de la Computación en FAMAF - UNC, y también Desarrollo Web y de Aplicaciones.",
+
+    "experience": [{
+        "company": "Scaraffia SA",
+        "position": "Administrativo",
+        "start": "2019",
+        "end":""
+    }],
+
+    "habilidades": [{
+        "habilidad1": "'../../../assets/img/html.png'",
+        "conocimiento1": "100"
+    }]
+}

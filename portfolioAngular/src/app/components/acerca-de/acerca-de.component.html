@@ -1,13 +1,14 @@
 <div class="row informacionPersonal">
     <div class="presentacion1 col-xs-12 col-sm-12 col-md-5 col-lg-4">
-        <img src="../../../assets/img/miFoto.jpeg" alt="Foto presentación" class="miFoto img-fluid">
+        <img [src]="myPortfolio.miFoto" alt="Foto presentación" class="miFoto img-fluid">
         <div class="misDatos">
-            <h1 class="nombre">Jazmín Caruso Rojo</h1>
-            <h2 class="profesion">Developer</h2>
+            <h1 class="nombre">{{myPortfolio.name}}</h1>
+            <h2 class="profesion">{{myPortfolio.profession}}</h2>
         </div>
     </div>
     <div class="presentacion2 col-xs-12 col-sm-12 col-md-7 col-lg-8">
         <h3 class="subtitulo1">Información personal:</h3>
-        <p class="textoAcercaDe">Información profesional</p>
+        <p class="textoAcercaDe">{{myPortfolio.miInfo}}</p>
     </div>
 </div>
+ 
