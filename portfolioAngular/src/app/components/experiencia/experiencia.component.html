@@ -1,12 +1,21 @@
 <div class="row experiencia">
     <h3 class="subtitulo2">Experiencia laboral:</h3>
+    
+    <div class="btn-edit" onclick="cambiarparrafo()">
+        <a href="#" class="btn-right">
+            <i class="fa fa-pencil"></i>
+        </a>
+    </div>
     <div class="trabajos row">
-        <div class="experiencia2 col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+        <div class="experiencia2 col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-7">
             <h4 class="subtituloExperiencia">Puesto de trabajo</h4>
-            <p class="textoExperiencia">Titulo del puesto, periodo, descripcion de las actividades y logo de la empresa</p>
+            <p id="text-experiencia" class="textoExperiencia">Titulo del puesto, periodo, descripcion de las actividades y logo de la empresa</p>
         </div>
         <div class="experiencia1 col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <img src="../../../assets/img/trabajo.jpg" alt="Foto presentación" class="img-fluid fotoTrabajo">
         </div>
+    </div>
+    <div>
+        <input id="edit-experiencia" type="text" oninput="myFunction2(this.value)" style="display:none">
     </div>
 </div>
